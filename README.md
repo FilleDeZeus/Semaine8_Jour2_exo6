@@ -1,17 +1,12 @@
-# Semaine8_Jour2_exo2
 > Event Target
 
-### 1. Suit scrupuleusement les étapes ci-dessous
-- Récupère la div en passant par son id
-- Créer une function avec comme paramètre "e" (qui symbolise "event") 
-- L'instruction de ta function est de faire un console.log de ton paramêtre e
-- Créer un écouteur d'événement "click" sur ta div et observe ce que ton console log renvoi quand tu clique sur :
-    - la div
-    - le premier h1
-    - le second h1
-- Ouvre ce que tu récupères dans tes console.log et cherche la propriété target, observe ce qu'il contient
-
-### 2. Trouve le moyen d'afficher l'élément dans la console.log grace a la propriété target
+### 1. Créer un programme en utilisant e.target, qui permet au click de la souris de : 
+- Mettre une bordure a la div
+- Mettre le paragraphe en gras et en rouge
+- Surligné le h1
+- Effacer le h2, a chaque fois que l'on clique dessus il perd une lettre.
 
 
-### 3. Change ton console.log par une instruction qui permet de mettre sur l'élément un border red et observe en cliquant sur les éléments de ta page ce qu'il se passe
+### 2. 
+- Créer une variable contenant le texte suivant : "Il est possible de passer des parametres dans la function utilisé dans l'écouteur d'événement et nous verrons ça dans le prochain exercice !"
+- Rajoute au hover de la section le texte contenu dans la variable dans son paragraphe 
